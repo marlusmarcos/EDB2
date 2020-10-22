@@ -1,5 +1,5 @@
 package heapSort;
-
+//Marlus Marcos
 public class HeapSort {
 	//criando função que recebe o array e vai ordena lo
     public static void ordenar(int array[]) { 
@@ -49,10 +49,10 @@ public class HeapSort {
      
     public static void main(String args[]) 
     { 
-        int arr[] = {12, 11, 13, 5, 6, 7}; 
+        int arr[] = {15, 11, 12, 8, 9, 30}; 
         int n = arr.length; 
   
-        //HeapSort ob = new HeapSort(); 
+ 
         ordenar(arr); 
         for (int i : arr) {
         	System.out.print(i +", "); 
